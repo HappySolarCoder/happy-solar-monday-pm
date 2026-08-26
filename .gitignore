@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+CODEX_TASK.md
+codex-last-message.md
+run-codex.sh
+run-tests.sh
+run-build.sh
+SPEC.md
