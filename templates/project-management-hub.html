@@ -26,18 +26,151 @@
         radial-gradient(circle at top left, rgba(255, 138, 91, 0.16), transparent 28%),
         linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
     }
-    .shell { max-width: 1720px; margin: 0 auto; padding: 32px 24px 56px; }
-    .card { background: var(--card); border: 1px solid rgba(229, 231, 235, 0.95); border-radius: 24px; box-shadow: var(--shadow); }
+    .shell {
+      max-width: 1720px;
+      margin: 0 auto;
+      padding: 32px 24px 56px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(229, 231, 235, 0.95);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .hero { padding: 28px; margin-bottom: 20px; }
+    .hero-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .accent-line { height: 6px; border-radius: 999px; background: linear-gradient(90deg, var(--pink), var(--coral)); margin-bottom: 18px; }
+    h1 { margin: 0; font-size: 30px; line-height: 1.06; letter-spacing: -0.03em; }
+    .subhead { margin-top: 8px; color: var(--muted); font-size: 14px; }
+    .ghost-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 14px; border: 1px solid rgba(194, 37, 92, 0.22); background: #fff7fb; color: #9d174d; font-size: 13px; font-weight: 800; cursor: pointer; white-space: nowrap; }
+    .overview-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 18px; }
+    .stat { padding: 18px; min-height: 118px; }
+    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .value { margin-top: 12px; font-size: 34px; font-weight: 700; }
+    .detail { margin-top: 10px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .stage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+    .stage-lane { margin-bottom: 20px; padding: 18px; border-radius: 26px; border: 1px solid rgba(229, 231, 235, 0.9); box-shadow: var(--shadow); }
+    .stage-lane-onboarding { background: linear-gradient(180deg, #fff8fb 0%, #ffffff 100%); }
+    .stage-lane-ops { background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%); }
+    .stage-lane-installation { background: linear-gradient(180deg, #fffaf2 0%, #ffffff 100%); }
+    .stage-lane-hold { background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); }
+    .stage-lane-label { margin: 0; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+    .stage-lane-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+    .stage-lane-copy { color: var(--muted); font-size: 13px; line-height: 1.45; max-width: 640px; }
+    .stage-card { min-height: 116px; padding: 14px 16px 18px; cursor: pointer; }
+    .stage-card.active { border-color: rgba(255, 92, 147, 0.6); background: linear-gradient(180deg, #fff7fb 0%, #ffffff 100%); }
+    .stage-top { display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 16px; min-height: 100%; }
+    .stage-name { width: 100%; font-size: 14px; font-weight: 700; text-align: center; }
+    .stage-count { display: inline-flex; align-items: center; justify-content: center; min-width: 54px; min-height: 42px; padding: 7px 12px; border-radius: 14px; background: var(--soft); color: #9d174d; font-size: 18px; font-weight: 800; }
+    .filters-row { display: flex; align-items: end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+    .toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .toolbar-chip { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 999px; border: 1px solid rgba(194, 37, 92, 0.18); background: #fff7fb; color: #7c2d12; font-size: 12px; font-weight: 800; cursor: pointer; }
+    .top-filter { min-width: 220px; }
+    .multi-select { position: relative; min-width: 260px; }
+    .multi-select-toggle { width: 100%; min-height: 46px; padding: 11px 14px; border: 1px solid var(--line); border-radius: 14px; background: #fff; color: var(--ink); font-size: 14px; text-align: left; cursor: pointer; }
+    .multi-select-toggle::after { content: '▾'; float: right; color: var(--muted); }
+    .multi-select-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 30; width: min(340px, calc(100vw - 28px)); max-height: 340px; overflow-y: auto; padding: 8px; border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: 0 18px 44px rgba(15, 23, 42, 0.16); }
+    .multi-select-menu[hidden] { display: none; }
+    .multi-select-option { display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 10px; cursor: pointer; }
     .multi-select-search { width: 100%; min-height: 38px; margin-bottom: 8px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; font-size: 13px; }
+    .multi-select-option[hidden] { display: none; }
     .cancel-stage-list { display: grid; gap: 12px; margin-top: 18px; min-height: 220px; max-height: min(42vh, 360px); overflow-y: auto; padding-right: 4px; }
+    .cancel-stage-row { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(80px, 2fr) minmax(88px, auto); gap: 12px; align-items: center; }
     .cancel-stage-name { font-size: 13px; font-weight: 700; color: #334155; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+    .filters { display: grid; grid-template-columns: 1.5fr 1fr auto; gap: 14px; align-items: end; padding: 18px; margin-bottom: 18px; }
+    .field label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .field input, .field select { width: 100%; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--line); background: #fff; color: var(--ink); font-size: 14px; }
+    .button { height: 46px; padding: 0 18px; border: 0; border-radius: 14px; background: linear-gradient(90deg, var(--pink), var(--coral)); color: #fff; font-weight: 700; cursor: pointer; }
+    .table-card { overflow: hidden; }
+    .table-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 20px 0; }
+    .modal-shell[hidden] { display: none; }
+    .modal-shell { position: fixed; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center; padding: 20px; background: rgba(15, 23, 42, 0.45); }
+    .modal-card { width: min(980px, 100%); max-height: min(88vh, 900px); overflow: auto; padding: 24px; }
+    .cancel-stage-panel { margin-top: 18px; padding: 20px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+    .cancel-stage-title { font-size: 18px; font-weight: 800; color: var(--ink); }
+    .cancel-stage-copy { margin-top: 5px; color: var(--muted); font-size: 13px; }
+    .cancel-stage-track { height: 12px; overflow: hidden; border-radius: 999px; background: #f1f5f9; }
+    .cancel-stage-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, #ff8a5b, #ff5c93); }
+    .cancel-stage-value { text-align: right; font-size: 13px; font-weight: 800; color: #9d174d; }
+    .modal-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 16px; }
   </style>
 </head>
 <body>
-  <div id="assignedRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="assignedRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__ASSIGNED_REP_OPTIONS__*/</div>
-  <div id="cancellationRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="cancellationRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__CANCELLATION_REP_OPTIONS__*/</div>
+  <div class="shell">
+    <section class="hero card">
+      <div class="accent-line"></div>
+      <div class="hero-top">
+        <div>
+          <h1>Project Management Hub</h1>
+          <div class="subhead">Dealer locked to Happy Slr via Monday EPC filter aliases including <strong>EPC-new</strong>. Generated /*__GENERATED_AT__*/.</div>
+        </div>
+        <button id="openCancellationModal" class="ghost-button" type="button">Cancellation Trends</button>
+      </div>
+    </section>
+    <section class="filters-row">
+      <div class="toolbar">
+        <button id="overdueToggle" class="toolbar-chip" type="button">Show Overdue Only</button>
+      </div>
+      <div id="assignedRepFilter" class="field top-filter multi-select">
+        <label id="assignedRepFilterLabel">Assigned Sales Rep</label>
+        <button id="assignedRepToggle" class="multi-select-toggle" type="button">All Assigned Reps</button>
+        <div id="assignedRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="assignedRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__ASSIGNED_REP_OPTIONS__*/</div>
+      </div>
+    </section>
+    <section class="filters card">
+      <div class="field"><label for="searchFilter">Search</label><input id="searchFilter" type="text" /></div>
+      <div class="field"><label for="stageFilter">Bucket</label><select id="stageFilter"><option value="">All Buckets</option></select></div>
+      <button id="resetFilters" class="button" type="button">Reset Filters</button>
+    </section>
+    <section id="stageDetail" class="stage-detail card"></section>
+    <section class="table-card card"><div class="table-head"><div class="table-title">Project List</div><div id="tableMeta" class="table-meta"></div></div><div class="table-wrap"><table><thead><tr><th>Bucket</th><th>Name</th></tr></thead><tbody id="tableBody"></tbody></table></div></section>
+  </div>
+  <div id="cancellationModal" class="modal-shell" hidden>
+    <section class="modal-card card">
+      <div class="modal-head">
+        <div>
+          <div id="cancellationModalTitle" class="modal-title">Cancellation Percentage</div>
+          <div class="modal-copy">Monthly cancellation rate based on project created month. Formula: projects currently in <strong>Cancelled</strong> that were created in the month divided by all projects created in that month.</div>
+        </div>
+        <button id="closeCancellationModal" class="icon-button" type="button">×</button>
+      </div>
+      <div class="modal-filter-row">
+        <div id="cancellationRepFilter" class="field multi-select">
+          <label id="cancellationRepFilterLabel">Sales Rep</label>
+          <button id="cancellationRepToggle" class="multi-select-toggle" type="button">All Sales Reps</button>
+          <div id="cancellationRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="cancellationRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__CANCELLATION_REP_OPTIONS__*/</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <svg id="cancellationChart" class="chart-svg" viewBox="0 0 900 360"></svg>
+        <div class="modal-stats">
+          <article class="card stat"><div class="label">Latest Month</div><div id="cancellationLatestMonth" class="value">—</div></article>
+          <article class="card stat"><div class="label">Latest Cancel %</div><div id="cancellationLatestRate" class="value">—</div></article>
+          <article class="card stat"><div class="label">Latest Counts</div><div id="cancellationLatestCounts" class="value">—</div></article>
+        </div>
+        <section class="cancel-stage-panel">
+          <div class="cancel-stage-title">Stage Before Cancellation</div>
+          <div class="cancel-stage-copy">Share of currently cancelled projects by the Monday Process Board group they were moved from.</div>
+          <div id="cancellationStageList" class="cancel-stage-list"></div>
+        </section>
+      </div>
+    </section>
+  </div>
   <script>
+    const rows = /*__ROWS__*/;
+    const stageCards = /*__STAGE_CARDS__*/;
+    const onboardingStageCards = /*__ONBOARDING_STAGE_CARDS__*/;
+    const epOpsStageCards = /*__EP_OPS_STAGE_CARDS__*/;
+    const epInstallationStageCards = /*__EP_INSTALLATION_STAGE_CARDS__*/;
+    const secondaryStageCards = /*__SECONDARY_STAGE_CARDS__*/;
     const latest = [...series].reverse().find((item) => item.created > 0) || series[series.length - 1];
+    function filterRepMenu(menuEl, query) {
+      const needle = String(query || '').trim().toLowerCase();
+      menuEl.querySelectorAll('.multi-select-option').forEach((option) => {
+        const label = (option.textContent || '').trim().toLowerCase();
+        option.hidden = Boolean(needle) && !label.includes(needle);
+      });
+    }
   </script>
 </body>
 </html>
