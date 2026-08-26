@@ -1,1 +1,43 @@
-FULL_TEMPLATE_FROM_DISK_SEE_NEXT
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Management Hub</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --ink: #263238;
+      --muted: #607d8b;
+      --line: #e5e7eb;
+      --pink: #ff5c93;
+      --coral: #ff8a5b;
+      --blue: #1d4ed8;
+      --soft: #fff5f8;
+      --shadow: 0 18px 36px rgba(15, 23, 42, 0.07);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(255, 138, 91, 0.16), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+    }
+    .shell { max-width: 1720px; margin: 0 auto; padding: 32px 24px 56px; }
+    .card { background: var(--card); border: 1px solid rgba(229, 231, 235, 0.95); border-radius: 24px; box-shadow: var(--shadow); }
+    .multi-select-search { width: 100%; min-height: 38px; margin-bottom: 8px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; font-size: 13px; }
+    .cancel-stage-list { display: grid; gap: 12px; margin-top: 18px; min-height: 220px; max-height: min(42vh, 360px); overflow-y: auto; padding-right: 4px; }
+    .cancel-stage-name { font-size: 13px; font-weight: 700; color: #334155; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+  </style>
+</head>
+<body>
+  <div id="assignedRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="assignedRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__ASSIGNED_REP_OPTIONS__*/</div>
+  <div id="cancellationRepMenu" class="multi-select-menu" hidden><input type="search" class="multi-select-search" id="cancellationRepSearch" placeholder="Type to filter sales reps" autocomplete="off" />/*__CANCELLATION_REP_OPTIONS__*/</div>
+  <script>
+    const latest = [...series].reverse().find((item) => item.created > 0) || series[series.length - 1];
+  </script>
+</body>
+</html>
