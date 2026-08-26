@@ -175,6 +175,9 @@ class TemplateSmokeTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.html = TEMPLATE.read_text(encoding="utf-8")
+        js = (TEMPLATE.parent / "hub-app.js")
+        if js.exists():
+            cls.html = cls.html + js.read_text(encoding="utf-8")
 
     def test_type_to_filter_inputs(self) -> None:
         self.assertIn('id="cancellationRepSearch"', self.html)
