@@ -1,0 +1,1382 @@
+{
+  "source": "tests/fixtures/quincy_cancel_join.json",
+  "note": "PB->EV relations are null. EV board_relation_mm1yysc4 points at each Quincy Jul/Aug PB id. July 5/17 August 0/3.",
+  "process_items": [
+    {
+      "id": "12421502532",
+      "name": "Raftery, Jennise",
+      "created_at": "2026-07-01T15:16:51Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "cancel_source_stage": "Welcome Call / Survey Scheduling (Martin / Tyler D)",
+      "address": "Raftery Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12421502541",
+      "name": "Breaux, Erin",
+      "created_at": "2026-07-01T15:16:54Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "cancel_source_stage": "Finance Recap",
+      "address": "Breaux Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12457917606",
+      "name": "Wray, Sheilla",
+      "created_at": "2026-07-06T17:08:55Z",
+      "group": {
+        "id": "group_7606",
+        "title": "Building Inspections"
+      },
+      "cancel_source_stage": "",
+      "address": "Wray Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12457908751",
+      "name": "Bianchi, Susan",
+      "created_at": "2026-07-06T17:08:58Z",
+      "group": {
+        "id": "group_8751",
+        "title": "Schedule Installation Q/A Check of job (Lisa)"
+      },
+      "cancel_source_stage": "",
+      "address": "Bianchi Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12457908756",
+      "name": "Letterman, Mark",
+      "created_at": "2026-07-06T17:09:00Z",
+      "group": {
+        "id": "group_8756",
+        "title": "Schedule Installation Q/A Check of job (Lisa)"
+      },
+      "cancel_source_stage": "",
+      "address": "Letterman Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12468713975",
+      "name": "Twersky, Sylvia",
+      "created_at": "2026-07-07T16:40:06Z",
+      "group": {
+        "id": "group_3975",
+        "title": "Permitting | Interconnection | ESOW QA | NTP | Calc Approval"
+      },
+      "cancel_source_stage": "",
+      "address": "Twersky Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12553307294",
+      "name": "McDowell, Marrisa",
+      "created_at": "2026-07-16T17:38:17Z",
+      "group": {
+        "id": "group_7294",
+        "title": "ON HOLD 2026"
+      },
+      "cancel_source_stage": "",
+      "address": "McDowell Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12553357497",
+      "name": "Richard, Sheryl",
+      "created_at": "2026-07-16T17:39:24Z",
+      "group": {
+        "id": "group_7497",
+        "title": "Permitting | Interconnection | ESOW QA | NTP | Calc Approval"
+      },
+      "cancel_source_stage": "",
+      "address": "Richard Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12556157066",
+      "name": "Palella, Charles",
+      "created_at": "2026-07-16T22:24:53Z",
+      "group": {
+        "id": "group_7066",
+        "title": "ON HOLD 2026"
+      },
+      "cancel_source_stage": "",
+      "address": "Palella Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12589859765",
+      "name": "Cuylear, Charles",
+      "created_at": "2026-07-21T15:36:40Z",
+      "group": {
+        "id": "group_9765",
+        "title": "ESOW Hold / Subs (Chris K. )"
+      },
+      "cancel_source_stage": "",
+      "address": "Cuylear Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12605727169",
+      "name": "Green, Jennifer",
+      "created_at": "2026-07-23T00:43:20Z",
+      "group": {
+        "id": "group_7169",
+        "title": "ON HOLD 2026"
+      },
+      "cancel_source_stage": "",
+      "address": "Green Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12616208929",
+      "name": "Hood, Carol",
+      "created_at": "2026-07-23T23:42:02Z",
+      "group": {
+        "id": "group_8929",
+        "title": "Permitting | Interconnection | ESOW QA | NTP | Calc Approval"
+      },
+      "cancel_source_stage": "",
+      "address": "Hood Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12628908700",
+      "name": "Andol, Jonathan",
+      "created_at": "2026-07-25T17:03:08Z",
+      "group": {
+        "id": "group_8700",
+        "title": "Permitting | Interconnection | ESOW QA | NTP | Calc Approval"
+      },
+      "cancel_source_stage": "",
+      "address": "Andol Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12656539533",
+      "name": "Farmer, Michele",
+      "created_at": "2026-07-29T01:35:39Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "cancel_source_stage": "Welcome Call / Survey Scheduling (Martin / Tyler D)",
+      "address": "Farmer Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12678199341",
+      "name": "Washington, Kathleen",
+      "created_at": "2026-07-30T23:52:33Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "cancel_source_stage": "Finance Recap",
+      "address": "Washington Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12683621049",
+      "name": "Both, Mackenzie",
+      "created_at": "2026-07-31T15:34:55Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "cancel_source_stage": "Building Inspections",
+      "address": "Both Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12687264463",
+      "name": "Gilbert, Carl",
+      "created_at": "2026-07-31T21:21:36Z",
+      "group": {
+        "id": "group_4463",
+        "title": "ON HOLD 2026"
+      },
+      "cancel_source_stage": "",
+      "address": "Gilbert Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12805983578",
+      "name": "Curtis, Gwendolyn",
+      "created_at": "2026-08-14T16:55:05Z",
+      "group": {
+        "id": "group_3578",
+        "title": "Finance Recap"
+      },
+      "cancel_source_stage": "",
+      "address": "Curtis Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12867539270",
+      "name": "Tinney, Madison",
+      "created_at": "2026-08-21T19:26:02Z",
+      "group": {
+        "id": "group_9270",
+        "title": "Welcome Call / Survey Scheduling (Martin / Joey)"
+      },
+      "cancel_source_stage": "",
+      "address": "Tinney Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12884246719",
+      "name": "Mcniffe, Madison",
+      "created_at": "2026-08-24T18:29:55Z",
+      "group": {
+        "id": "group_6719",
+        "title": "Welcome Call / Survey Scheduling (Martin / Joey)"
+      },
+      "cancel_source_stage": "",
+      "address": "Mcniffe Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000001",
+      "name": "Fallback, Uniquejune",
+      "created_at": "2026-06-15T12:00:00Z",
+      "group": {
+        "id": "welcome",
+        "title": "Welcome Call"
+      },
+      "cancel_source_stage": "",
+      "address": "1 Unique June Rd, Rochester, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000011",
+      "name": "Dupename, Jane",
+      "created_at": "2026-06-10T12:00:00Z",
+      "group": {
+        "id": "wc",
+        "title": "Welcome Call"
+      },
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000021",
+      "name": "Otherdealer, Pat",
+      "created_at": "2026-07-04T12:00:00Z",
+      "group": {
+        "id": "new_group",
+        "title": "Cancelled"
+      },
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Sunrun",
+          "value": "{\"label\": \"Sunrun\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "77700000001",
+      "name": "Collision, Process",
+      "created_at": "2026-06-01T12:00:00Z",
+      "group": {
+        "id": "wc",
+        "title": "Welcome Call"
+      },
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "Happy Slr",
+          "value": "{\"label\": \"Happy Slr\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000031",
+      "name": "Addronly, Processname",
+      "created_at": "2026-05-20T12:00:00Z",
+      "group": {
+        "id": "wc",
+        "title": "Welcome Call"
+      },
+      "address": "88 Address Only Lane, Syracuse, NY",
+      "column_values": [
+        {
+          "id": "dropdown_mkpp9kz7",
+          "text": "EPC-new",
+          "value": "{\"label\": \"EPC-new\"}"
+        },
+        {
+          "id": "connect_boards2__1",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52zx30",
+          "text": "",
+          "value": null
+        }
+      ]
+    }
+  ],
+  "ev_items": [
+    {
+      "id": "12421502643",
+      "name": "Raftery, Jennise",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Raftery Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Raftery, Jennise",
+          "value": "{\"linked_item_ids\": [12421502532]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Raftery Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12421502652",
+      "name": "Breaux, Erin",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Breaux Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Breaux, Erin",
+          "value": "{\"linked_item_ids\": [12421502541]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Breaux Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12433491019",
+      "name": "Wray, Sheilla",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Wray Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Wray, Sheilla",
+          "value": "{\"linked_item_ids\": [12457917606]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Wray Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12457908862",
+      "name": "Bianchi, Susan",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Bianchi Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Bianchi, Susan",
+          "value": "{\"linked_item_ids\": [12457908751]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Bianchi Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12457908867",
+      "name": "Letterman, Mark",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Letterman Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Letterman, Mark",
+          "value": "{\"linked_item_ids\": [12457908756]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Letterman Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12468714086",
+      "name": "Twersky, Sylvia",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Twersky Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Twersky, Sylvia",
+          "value": "{\"linked_item_ids\": [12468713975]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Twersky Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12553307405",
+      "name": "McDowell, Marrisa",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "McDowell Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "McDowell, Marrisa",
+          "value": "{\"linked_item_ids\": [12553307294]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "McDowell Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12553357608",
+      "name": "Richard, Sheryl",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Richard Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Richard, Sheryl",
+          "value": "{\"linked_item_ids\": [12553357497]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Richard Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12556157177",
+      "name": "Palella, Charles",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Palella Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Palella, Charles",
+          "value": "{\"linked_item_ids\": [12556157066]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Palella Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12589859876",
+      "name": "Cuylear, Charles",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Cuylear Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Cuylear, Charles",
+          "value": "{\"linked_item_ids\": [12589859765]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Cuylear Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12605727280",
+      "name": "Green, Jennifer",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Green Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Green, Jennifer",
+          "value": "{\"linked_item_ids\": [12605727169]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Green Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12616209040",
+      "name": "Hood, Carol",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Hood Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Hood, Carol",
+          "value": "{\"linked_item_ids\": [12616208929]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Hood Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12628908811",
+      "name": "Andol, Jonathan",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Andol Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Andol, Jonathan",
+          "value": "{\"linked_item_ids\": [12628908700]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Andol Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12656539644",
+      "name": "Farmer, Michele",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Farmer Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Farmer, Michele",
+          "value": "{\"linked_item_ids\": [12656539533]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Farmer Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12678199452",
+      "name": "Washington, Kathleen",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Washington Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Washington, Kathleen",
+          "value": "{\"linked_item_ids\": [12678199341]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Washington Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12683621160",
+      "name": "Both, Mackenzie",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Both Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Both, Mackenzie",
+          "value": "{\"linked_item_ids\": [12683621049]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Both Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12687264574",
+      "name": "Gilbert, Carl",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Gilbert Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Gilbert, Carl",
+          "value": "{\"linked_item_ids\": [12687264463]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Gilbert Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12805983689",
+      "name": "Curtis, Gwendolyn",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Curtis Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Curtis, Gwendolyn",
+          "value": "{\"linked_item_ids\": [12805983578]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Curtis Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12867539381",
+      "name": "Tinney, Madison",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Tinney Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Tinney, Madison",
+          "value": "{\"linked_item_ids\": [12867539270]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Tinney Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "12884246830",
+      "name": "Mcniffe, Madison",
+      "created_at": "2025-01-01T00:00:00Z",
+      "address": "Mcniffe Ave, Buffalo, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": "{\"personsAndTeams\": [{\"name\": \"Quincy Sermons\", \"id\": 77288544}]}"
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "Mcniffe, Madison",
+          "value": "{\"linked_item_ids\": [12884246719]}"
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "Mcniffe Ave, Buffalo, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000002",
+      "name": "Fallback, Uniquejune",
+      "created_at": "2024-01-01T00:00:00Z",
+      "address": "1 Unique June Rd, Rochester, NY",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Quincy Sermons",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "1 Unique June Rd, Rochester, NY",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000012",
+      "name": "Dupename, Jane",
+      "created_at": "2024-01-01T00:00:00Z",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Adam Day",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000013",
+      "name": "Dupename, Jane",
+      "created_at": "2024-01-01T00:00:00Z",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Jeff Salas",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "77700000001",
+      "name": "Collision, Essential",
+      "created_at": "2024-01-01T00:00:00Z",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Zachary Maecker",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "90000000032",
+      "name": "Addronly, Differentname",
+      "created_at": "2024-01-01T00:00:00Z",
+      "column_values": [
+        {
+          "id": "people_mkm6c7vb",
+          "text": "Ross Williamson",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm1yysc4",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "board_relation_mm52vqdj",
+          "text": "",
+          "value": null
+        },
+        {
+          "id": "location",
+          "text": "88 Address Only Lane, Syracuse, NY",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
