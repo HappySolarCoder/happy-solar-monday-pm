@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.bak
+.vercel
+.DS_Store
+.env*
+
+.env.local
+
+public/project-management-hub.html
+
+public/hub-data.js
+
+public/happy-slr-hold-cancelled.html
